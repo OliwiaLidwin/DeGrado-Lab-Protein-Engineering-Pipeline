@@ -10,9 +10,6 @@ from selectAtoms import selectE
 # Creates a new folder in the input directory called all_labeled in which the files are renamed such that the 
 # distance for the atom closest to the plane of interest is first in the filename.
 
-
-
-
 def update_and_move_pdb_filename(filename, directory, distances):
     original_path = os.path.join(directory, filename)
     for d in distances:
