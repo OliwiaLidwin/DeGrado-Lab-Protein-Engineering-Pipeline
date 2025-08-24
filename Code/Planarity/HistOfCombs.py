@@ -3,9 +3,12 @@ import re
 import matplotlib.pyplot as plt
 
 # 
+# Renames the file using an extracted value.
+# Creates a histogram of directory data.
+#
 # Change the definition of extract_number_from_filename to your desired naming.
 # Change the range of data you want your histogram to cover in a different color. (Ex. 0.15 to 0.74 for resname 38E)
-# Change line 65 accoringly.
+# Change line 67 accoringly for the directory.
 # 
 
 def extract_number_from_filename(filename):
